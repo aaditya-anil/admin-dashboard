@@ -34,6 +34,7 @@
 
 .search-bar{
     background-color:var(--white-color);
+    padding-top: 12px;
 }
 
 .user-bar{
@@ -203,6 +204,11 @@ h3{
     font-weight: 400;
 }
 
+.announcement-tile p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
 .project-tile-content{
     display: grid;
 }
@@ -225,7 +231,10 @@ h3{
     padding: 18px 12px 12px 18px;
     font-size: 24px;
     font-weight: 800;
+    text-align: center;
 }
+
+
 
 .user-action-icons-project-tile img{
     height: 24px;
@@ -234,4 +243,28 @@ h3{
 .user-project-tile-container{
     display: grid;
     grid-template-columns: max-content max-content;
+    justify-content: space-evenly;
+}
+
+.announcement-tile{
+    background-color: var(--white-color);
+    border-radius: 24px;
+    margin-left: 12px;
+    margin-right: 12px;
+    padding: 12px 12px 12px 12px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.announcement-plate p{
+    font-size: 14px;
+   
+}
+
+.announcement-info p:first-child{
+    padding: 18px 12px 12px 18px;
+    font-size: 24px;
+    font-weight: 800;
 }
